@@ -56,11 +56,17 @@ Use the appropriate variable file:
   terraform apply -var-file="prod.tfvars" --auto-approve
   ```
 
+![image alt](https://github.com/joker295/tech_eazy_devops_joker295/blob/3302223260d03d6280bb0d2467436e17961bb0fe/images/Screenshot%20from%202025-09-22%2020-10-45.png)
+  
+
 * For **development**:
 
   ```bash
   terraform apply -var-file="dev.tfvars" --auto-approve
   ```
+
+![image alt](https://github.com/joker295/tech_eazy_devops_joker295/blob/3302223260d03d6280bb0d2467436e17961bb0fe/images/Pasted%20image.png)
+
 
 Edit `prod.tfvars` or `dev.tfvars` according to your requirements.
 
@@ -96,9 +102,3 @@ terraform destroy -var-file="dev.tfvars" --auto-approve
 export TF_LOG=DEBUG
 terraform apply -var-file="dev.tfvars"
 ```
-
----
-
-✅ Now your README is clean, structured, and properly indented.
-
-Do you want me to also add a **diagram (ASCII or Mermaid)** of the architecture (VPC → EC2 → S3 → SG) to make it visually clearer?
