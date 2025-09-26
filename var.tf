@@ -1,55 +1,59 @@
 
 variable "stage" {
-  
+
 }
 
-variable "vpc_cidr"{
-    
-    type    = string
-    
-  
+variable "vpc_cidr" {
+
+  type = string
+
+
 }
 
 variable "region" {
 
-    type    = string
-    
-  
+  type = string
+
+
 }
 
 variable "az" {
 
-    type = string
-  
-}
-
-variable "ami"{
-
-    type    = string
-   
+  type = string
 
 }
 
-  
+variable "ami" {
+
+  type = string
+
+
+}
+
+
 variable "instance_type" {
-    
-    type     = string
 
-  
+  type = string
+
+
 }
 
 variable "instance_count" {
-    
-    type    = number
- 
+
+  type = number
+
 
 }
 
 
-variable"user_data"{
+variable "user_data" {
 
-    type    = string
+  type = string
 
+
+}
+
+variable "bucket_name" {
 
 }
 
