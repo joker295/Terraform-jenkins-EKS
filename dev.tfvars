@@ -2,10 +2,11 @@ stage          = "Development"
 vpc_cidr       = "10.0.0.0/16"
 ami            = "ami-02d26659fd82cf299"
 az             = "ap-south-1b"
-region        =   "ap-south-1"
+region         = "ap-south-1"
 instance_count = 1
+bucket_name    = "development-logs-7070"
 instance_type  = "t3.micro"
-user_data =      <<-EOF
+user_data      = <<-EOF
             #!/bin/bash
             apt-get update -y 
             apt-get install -y openjdk-21-jdk maven
